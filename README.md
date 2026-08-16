@@ -1,3 +1,9 @@
+## 👨‍💻 About Me
+
+I'm **Nagaranjan R**, a Computer Science Engineering student learning Python and exploring software development.
+
+This repository is a record of my Python learning journey and the projects I build along the way.
+
 # 🐍 Python Projects
 
 This repository contains the Python projects I build while learning and improving my Python programming skills.
@@ -38,12 +44,6 @@ My goal is to become confident in Python and use it for:
 - Building practical applications
 
 > **Learn → Build → Break → Debug → Improve 🚀**
-
-## 👨‍💻 About Me
-
-I'm **Nagaranjan R**, a Computer Science Engineering student learning Python and exploring software development.
-
-This repository is a record of my Python learning journey and the projects I build along the way.
 
 ---
 
