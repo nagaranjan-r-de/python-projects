@@ -1,26 +1,33 @@
 from cart import cart
 
+
 def view_cart():
+
     if not cart:
         print("\nCart is empty.")
         return
 
-    print("\n========== YOUR CART ==========")
+    try:
+        print("\n========== YOUR CART ==========")
 
-    grand_total = 0
+        grand_total = 0
 
-    for item in cart:
-        print(
-            f"Name: {item['name']} | "
-            f"Qty: {item['quantity']} | "
-            f"Price: ₹{item['price']} | "
-            f"Total Price: ₹{item['total']}"
-        )
+        for item in cart:
+            print(
+                f"Name: {item['name']} | "
+                f"Qty: {item['quantity']} | "
+                f"Price: ₹{item['price']} | "
+                f"Total Price: ₹{item['total']}"
+            )
 
-        grand_total += item["total"]
+            grand_total += item["total"]
 
-    print("------------------------------")
-    print(f"Grand Total: ₹{grand_total}")
+    except KeyError as error:
+        print(f"Cart data is missing the key: {error}")
+
+    else:
+        print("------------------------------")
+        print(f"Grand Total: ₹{grand_total}")
 
 
 def checkout():
@@ -29,30 +36,41 @@ def checkout():
         print("\nCart is empty.")
         return
 
-    print("\n========== CHECKOUT ==========")
+    try:
+        print("\n========== CHECKOUT ==========")
 
-    grand_total = 0
+        grand_total = 0
 
-    for item in cart:
-        print(
-            f"Name: {item['name']} | "
-            f"Qty: {item['quantity']} | "
-            f"Price: ₹{item['price']} | "
-            f"Total Price: ₹{item['total']}"
-        )
+        for item in cart:
+            print(
+                f"Name: {item['name']} | "
+                f"Qty: {item['quantity']} | "
+                f"Price: ₹{item['price']} | "
+                f"Total Price: ₹{item['total']}"
+            )
 
-        grand_total += item["total"]
+            grand_total += item["total"]
 
-    print("------------------------------")
-    print(f"Grand Total: ₹{grand_total}")
-
-    confirm = input("Confirm order? (y/n): ").lower()
-
-    if confirm != "y":
-        print("Checkout cancelled.")
+    except KeyError as error:
+        print(f"Cart data is missing the key: {error}")
         return
 
-    print("\nOrder placed successfully!")
-    print(f"Total amount: ₹{grand_total}")
+    else:
+        print("------------------------------")
+        print(f"Grand Total: ₹{grand_total}")
 
-    cart.clear()
+        confirm = input(
+            "Confirm order? (y/n): "
+        ).strip().lower()
+
+        if confirm == "y":
+            print("\nOrder placed successfully!")
+            print(f"Total amount: ₹{grand_total}")
+
+            cart.clear()
+
+        elif confirm == "n":
+            print("Checkout cancelled.")
+
+        else:
+            print("Invalid choice. Please enter y or n.")

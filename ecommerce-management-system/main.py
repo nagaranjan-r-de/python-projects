@@ -27,22 +27,41 @@ def main():
             show_products()
 
         elif choice == "2":
-            search_name = input("Enter product to search : ")
-            search_product(search_name)
+            search_name = input("Enter product to search : ").strip()
+            try:    
+                search_product(search_name)
+            except Exception as error:
+                print(f"Error while searching product: {error}")
+            else:
+                print("Searching name ...")
+
 
         elif choice == "3":
             product_name = input("Enter product to add to cart: ")
-            product_count = int(input("Enter number of products to add: "))
-            add_to_cart(product_name, product_count)
+            try:
+                product_count = int(input("Enter number of products to add: "))
+                add_to_cart(product_name, product_count)
+            except ValueError:
+                print("Invalid input. Please enter a valid number.")
 
         elif choice == "4":
-            view_cart()
+            try:
+                view_cart()
+            except Exception as error:
+                print(f"Error while viewing cart: {error}")
 
         elif choice == "5":
-            remove_from_cart()
+            try:
+                remove_from_cart()
+            except Exception as error:
+                print(f"Error while removing product: {error}")
 
         elif choice == "6":
-            checkout()
+            try:
+                checkout()
+            except Exception as error:
+                print(f"Checkout error: {error}")
+
 
         elif choice == "7":
             print("\nThank you for using the E-Commerce Management System!")

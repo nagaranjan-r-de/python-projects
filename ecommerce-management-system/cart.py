@@ -4,64 +4,47 @@ cart = []
 
 
 def add_to_cart(product_name, product_count):
-    for product in products:
 
-        if product_name.lower() in product["name"].lower():
-
-            if product_count > product["stock"]:
-                print(
-                    f"Only {product['stock']} units of "
-                    f"{product['name']} are available."
-                )
-                return
-
-            total_price = product["price"] * product_count
-
-            cart.append(
-                {
-                    "id": product["id"],
-                    "name": product["name"],
-                    "price": product["price"],
-                    "quantity": product_count,
-                    "total": total_price,
-                }
-            )
-
-            print(
-                f"Added {product_count} x {product['name']} "
-                f"==> ₹{total_price}"
-            )
-
-            return
-
-    print("Product not found")
-
-
-def remove_from_cart():
-    if not cart:
-        print("\nCart is empty.")
+    if not product_name:
+        print("Product name cannot be empty.")
         return
 
-    print("\n========== CART ==========")
+    if product_count <= 0:
+        print("Product count must be greater than zero.")
+        return
 
-    for item in cart:
-        print(
-            f"Name: {item['name']} | "
-            f"Qty: {item['quantity']} | "
-            f"Price: ₹{item['price']} | "
-            f"Total Price: ₹{item['total']}"
-        )
+    try:
+        for product in products:
 
-    rm_name = input("\nEnter product name to remove from cart: ").strip()
+            if product_name.lower() == product["name"].lower():
 
-    for item in cart:
-        if rm_name.lower() == item["name"].lower():
-            cart.remove(item)
-            print(f"{item['name']} removed from cart.")
-            return
+                if product_count > product["stock"]:
+                    print(
+                        f"Only {product['stock']} units of "
+                        f"{product['name']} are available."
+                    )
+                    return
 
-    print("Product not found in cart.")
-        
+                total_price = product["price"] * product_count
 
+                cart.append(
+                    {
+                        "id": product["id"],
+                        "name": product["name"],
+                        "price": product["price"],
+                        "quantity": product_count,
+                        "total": total_price,
+                    }
+                )
 
-    
+                print(
+                    f"Added {product_count} x "
+                    f"{product['name']} ==> ₹{total_price}"
+                )
+
+                return
+
+        print("Product not found.")
+
+    except KeyError as error:
+        print(f"Product data is missing the key: {error}")
