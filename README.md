@@ -47,4 +47,4 @@ My goal is to become confident in Python and use it for:
 
 ---
 
-⭐ More projects and updates coming as I learn.
+⭐ More projects and updates coming as I learn.# python-projects
