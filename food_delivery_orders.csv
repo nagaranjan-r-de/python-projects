@@ -1,0 +1,101 @@
+order_id,customer_name,city,restaurant_name,cuisine_type,order_timestamp,items_count,order_amount,discount_amount,payment_method,delivery_status,delivery_time_mins
+FD-10001,Rohan Sharma,Bengaluru,Burger Barn,Fast Food,2026-10-02 20:20:29,4,811,122,COD,DELIVERED,38
+FD-10002,Suresh Menon,DELHI,Sweet Tooth Bakery,Desserts,02/10/2026 20:41,2,168,17,credit card,Delivered,57
+FD-10003,Shreya Menon,Pune,Tandoori Tales,North Indian,2026-10-03 11:52:06,3,822,0,debit card,Delivered,29
+FD-10004,Neha Verma,Delhi,Biryani Bazaar,Biryani,03/10/2026 19:12,2,673,0,Wallet,Delivered,23
+FD-10005,arjun  chopra,Mumbai,Paratha Point,North Indian,04/10/2026 13:32,1,169,17,Wallet,delivered,43
+FD-10006,,N/A,  Dosa Darbar ,South Indian,2026-10-04 19:48:34,1,94,0,Upi,Delivered,41
+FD-10007,Shreya Chopra,Bengaluru,Burger Barn,Fast Food,2026-10-04 20:06:27,2,383,77,UPI,DELIVERED,56
+FD-10008,Vikram Bose,Mumbai,Dosa Darbar,South Indian,2026-10-05 19:38:29,0,114,0,UPI ,Delivered,42
+FD-10009,Amit Gupta,bangalore,Spice Route Kitchen,North Indian,2026-10-05 21:45:45,4,1071,0,null,Delivered,22
+FD-10010,Siddharth Patel,Bengaluru,Green Bowl,healthy,06/10/2026 09:34,4,1241,0,credit_card,Delivered,39
+FD-10011,Meera Pillai,Chennai,Burger Barn  ,Fast Food,2026-10-06 11:03:48,4,861,0,Cash on Delivery,Delivered,22
+FD-10012,Harsh Sharma,,tandoori tales,North Indian,2026-10-06 12:33:13,1,279,0,Cash on Delivery,Delivered,
+FD-10013,Manish Iyer, Mumbai,Green Bowl,Healthy,2026-10-06 13:16:29,2,-458,0,cod,Refunded,32
+FD-10014,Neha Chopra,Delhi,Pizza Junction,italian,2026-10-06 13:27:34,2,628,0,UPI,Delivered,40
+FD-10015,Sneha Pillai,Mumbai,Burger Barn,Fast Food,07/10/2026 20:26,5,1185,0,UPI,Delivered,56
+FD-10016,Varun Menon,Mumbai,Dosa Darbar,South Indian,2026-10-07 20:33:57,1,99,0,UPI,Delivred,22
+FD-10017,Lakshmi Kulkarni,Hyderabad,Wok & Roll,Chinese,08/10/2026 15:08,3,592,118,UPI,Delivered,
+FD-10018,  Anjali Bose ,DELHI,Biryani Bazaar,Biryani,2026-10-08 19:04:35,1,314,0,UPI,Delivered,51
+FD-10019,Anjali Shah,Bangalore,  Biryani Bazaar  ,Biryani,2026-10-09 13:59:22,4,1216,1366,UPI,Delivered,42
+FD-10020,  Arjun Reddy ,Bengaluru,Paratha Point,North Indian,2026-10-09 21:23:06,2,288,0,Credit Card,Delivered,46
+FD-10016,Varun Menon,Mumbai,Dosa Darbar,South Indian,2026-10-07 20:33:57,1,99,0,UPI,Delivred,22
+FD-10021,Amit Das,Delhi,Sweet Tooth Bakery,Desserts,10/10/2026 14:20,2,213,32,Wallet,Delivered,56
+FD-10022,Ishita Verma,Hyderabad,Tandoori Tales,North Indian,"Oct 10, 2026 08:00 PM",1,264,0,UPI,Delivered,23
+FD-10021,Amit Das,Delhi,Sweet Tooth Bakery,Desserts,10/10/2026 14:20,2,213,32,Wallet,Delivered,56
+FD-10023,Amit Verma,Mumbai,Green Bowl,Healthy,2026-10-12 12:20:42,4,1271,0,UPI,Delivered,44
+FD-10024,Swati Shah,Delhi,Dosa Darbar,South Indian,2026/10/12 13:27:05,2,253,0,upi,Delivered,52
+FD-10025,Manish Das,Hyderabad,Dosa Darbar,South Indian,13/10/2026 09:41,1,164,16,UPI,Delivered,51
+FD-10026,Aditya Patel,Hyderabad,wok & roll,Chinese,2026-10-13 21:16:54,1,269,0,UPI,Delivered,36
+FD-10027,priya  singh,Bengaluru,Pizza Junction,Italian,13/10/2026 21:35,3,1132,150,Credit Card,Canceled,
+FD-10028,Priya Shah,Mumbai,Dosa Darbar,South Indian,2026-10-14 19:29:38,5,650,0,Credit Card,Delivered,38
+FD-10029,Swati Mehta,Chennai,Burger Barn,Fast Food,2026-10-14 19:30:32,4,866,150,Debit Card,Delivered,720
+FD-10030,Lakshmi Verma,Bengaluru,Wok & Roll,Chinese,2026-10-14 19:59:08,2,578,0,Debit Card,Delivered,55
+FD-10031,Manish Joshi,hyderabad,Burger Barn,fast food,2026-10-14 21:24:19,three,224,0,Wallet,Delivered,55
+fd-10029,SWATI MEHTA , chennai,Burger Barn,Fast Food,2026-10-14 19:30:32,4,866,150,Debit Card,Delivered,720
+FD-10032,Manish Patel, Pune ,Biryani Bazaar,Biryani,2026-10-15 08:57:43,1,264,0,UPI,delivered,30
+FD-10033,Arjun Reddy, Hyderabad,Paratha Point,North Indian,2026-10-15 13:07:31,2,323,65,Debit Card,Delivered,56
+FD-10034,Rahul Kulkarni,ahmedabad,Dosa Darbar ,South Indian,2026-10-15 18:52:31,1,159,0,UPI,Delivered,24
+FD-10035,Pooja Desai,Bengaluru,Pizza Junction,Italian,15-10-2026,2,658,66,Credit Card,Delivered,31
+fd-10034,RAHUL KULKARNI , ahmedabad,Dosa Darbar ,South Indian,2026-10-15 18:52:31,1,159,0,UPI,Delivered,24
+FD-10036,Harsh Verma,,Spice Route Kitchen,North Indian,2027-10-15 21:05:00,2,483,0,,Delivered,31
+FD-10037,Siddharth Sharma,Bombay,Wok & Roll,Chinese,00/10/2026 13:05,1,214,0,UPI,Delivered,38
+FD-10038,Arjun Menon,,Paratha Point,North Indian,,2,313,31,Wallet,Delivered ,53
+FD-10039,Anjali Chopra,HYDERABAD,Burger Barn,Fast Food,2026-10-16 19:08:34,2,498,0,UPI,Delivered,50
+FD-10040,Arjun Rao,New Delhi,Biryani Bazaar,biryani,2026-10-16 19:13:25,3,822,0,Wallet,Delivered,33
+ FD-10041 ,riya das,Delhi,Biryani Bazaar,Biryani,2026/10/16 23:52:26,,394,544,UPI,cancelled,
+FD-10042,Ishita Gupta,Ahmedabad,Spice Route Kitchen,North Indian,2026-10-17 14:51:09,2,603,0,Credit Card,Delivered,31
+FD-10043,Meera Chopra,Pune,Tandoori Tales,North Indian,2026-10-17 15:43:19,3,-962,150,credit_card,Delivered,51
+ FD-10044 ,Anjali Banerjee,Hyderabad,Wok & Roll,Chinese,2026-10-17 20:24:00,1,204,41,,Delivered,55
+FD-10045,Karthik Mehta,Bombay,Tandoori Tales,North Indian,2026-10-17 20:36:14,3,812,0,Cash on Delivery,Delivered,28
+FD-10046,Nikhil Reddy,DELHI,Spice Route Kitchen,north indian,2026-10-17 20:52:06,1,314,0,Credit Card,Delivered ,43
+FD-10047,Aditya Patel,Chennai,Pizza Junction,Italian,2026-10-17 21:06:45,4,1491,0,Credit Card,Delivered,33
+FD-10048,Neha Gupta,Pune,Tandoori Tales,North Indian,2026-10-18 14:19:35,2,593,59,UPI,Delivered,30
+FD-10049,SURESH MEHTA,Bengaluru,Sweet Tooth Bakery,Desserts,18-10-2026,4,551,0,Credit Card,Delivered,35
+FD-10050,Rohan Das,Mumbai,Paratha Point,North Indian,2026-10-18 20:54:54,4,,61,Wallet,Delivered,45
+FD-10051,Amit Nair,Ahmedabad,Dosa Darbar,South Indian,19/10/2026 13:35,4,606,121,wallet,Delivered,54
+fd-10049,SURESH MEHTA , bengaluru,Sweet Tooth Bakery,Desserts,18-10-2026,4,551,0,Credit Card,Delivered,35
+FD-10052,Neha Desai,Hyderabad,Biryani Bazaar,biryani,2026-10-19 13:54:45,3,857,0,Credit Card,Delivered,22
+FD-10053, Ishita Joshi ,Bengaluru,Pizza Junction,Italian,19-10-2026,25,1416,142,UPI,Delivered,36
+FD-10054,Manish Verma,Bengaluru,Spice Route Kitchen,North Indian,19-10-2026,2,0,47,wallet,Delivered,34
+FD-10055,Swati Pillai,Chennai,Tandoori Tales,North Indian,2026-10-19 20:13:07,2,453,0,COD,Refunded,58
+FD-10056,Nikhil Shah,Hyderabad,wok & roll,Chinese,2026-10-19 20:36:18,,702,70,Debit Card,Delivered,27
+FD-10057,Lakshmi Bose,Chennai,PIZZA JUNCTION,Italian,20/10/2026 14:09,5,1475,0,Credit Card,Canceled,35
+FD-10058,Kavya Shah,Chennai,  Pizza Junction,Italian,"Oct 20, 2026 08:35 PM",-2,Rs. 763,0,UPI,Delivered,28
+FD-10059,,Hyderabad,Biryani Bazaar,Biryani,2026/10/21 10:21:05,4,1066,150,UPI,Delivered,
+FD-10060,,Chennai,Tandoori Tales,North Indian,2026-10-21 12:45:43,1,354,0,,Delivered,46
+ FD-10061 ,lakshmi  chopra,Mumbai,Paratha Point,North Indian,2026-10-21 20:43:30,2,298,45,UPI,Delivered,28
+FD-10062,Kavya Joshi,Mumbai,Green Bowl,Healthy,2026-10-22 12:01:22,3,877,0,UPI,Delivered,28
+FD-10063,Nikhil Das,Delhi,Wok & Roll,Chinese,2026-10-23 20:32:16,1,239,0,Wallet,Delivered,46
+FD-10059,,Hyderabad,Biryani Bazaar,Biryani,2026/10/21 10:21:05,4,1066,150,UPI,Delivered,
+FD-10064,Aditya Joshi,Hyderabad,Pizza Junction,Italian,23/10/2026 21:34,2,628,63,Debit Card,Delivered,30
+FD-10065,HARSH PILLAI,Delhi,Tandoori Tales,North Indian,"Oct 25, 2026 11:03 AM",3,957,0,Debit Card,Delivered,56
+FD-10066,Pooja Joshi,Hyderabad,Biryani Bazaar,Biryani,2026/10/25 20:48:49,2,,65,Wallet,Delivered,0
+FD-10067,Lakshmi Joshi,Bengaluru,Paratha Point,North Indian,"Oct 25, 2026 09:56 PM",4,641,64,Cash on Delivery,Delivered,53
+FD-10068,ananya  banerjee,Hyderabad,Burger Barn,Fast Food,2026-10-26 13:47:32,1,,15,Debit Card,delivered,47
+FD-10069,Aditya Rao,Mumbai,Biryani Bazaar,Biryani,2026-10-26 14:42:58,3,952,95,UPI,Delivered,31
+FD-10070,Anjali Chopra,Pune,Paratha Point,North Indian,2026-10-26 18:31:23,4,99999,56,UPI,Delivered,28
+FD-10071,DIVYA NAIR,BENGALURU,Biryani Bazaar,Biryani,2026-10-26 19:44:30,1,344,0,UPI,Refunded,50
+FD-10072,Manish Gupta,Bengaluru,Spice Route Kitchen,North Indian,2026-10-26 19:53:46,1,204,0,UPI,Delivered,56
+FD-10073,Anjali Mehta,Bengaluru,Dosa Darbar,South Indian,2026/10/26 20:37:19,4,576,0,Debit Card,Delivered,45
+FD-10074,Sneha Pillai,Bengaluru,Tandoori Tales,North Indian,2026-10-26 21:27:12,3,982,150,UPI,Delivered,55
+FD-10075,Sneha Menon,Pune,Tandoori Tales,North Indian,2026-10-27 09:55:48,2,₹603,0,UPI,Delivered,50
+FD-10076,Nikhil Verma,Chennai,Pizza Junction,Italian,27-10-2026,1,369,37,WALLET,Delivered ,43
+FD-10077,Swati Rao,Chennai,Dosa Darbar,South Indian,2026-10-28 11:32:51,2,293,0,Credit Card,Delivered,45
+FD-10078,Aarav Menon,Bangalore,Pizza Junction,Italian,2026/10/28 12:00:05,2,573,0,UPI,Delivered,52
+FD-10079,Neha Das,Mumbai,Spice Route Kitchen,North Indian,"Oct 28, 2026 12:35 PM",3,697,0,UPI,Delivered,46
+FD-10080,Aditya Iyer, Hyderabad ,  Spice Route Kitchen,North Indian,"Oct 28, 2026 10:56 PM",1,279,0,Credit Card,Refunded,56
+FD-10081,Anjali Iyer,Pune,Tandoori Tales,North Indian,2026-10-29 09:41:33,1,239,0,UPI,Delivered,-10
+FD-10082,Pooja Menon,Bengaluru,Tandoori Tales,North Indian,2026-10-29 12:56:07,3,892,0,Cash on Delivery,Delivered,40
+FD-10083, Aditya Bose ,bangalore,Burger Barn,Fast Food,2026-10-29 14:21:26,4,886,133,Credit Card,Delivered,26
+FD-10084,Pooja Patel,N/A,Tandoori Tales,North Indian,2026-10-29 19:18:05,1,219,0,COD,Delivered,30
+FD-10085,Harsh Iyer, Delhi,Wok & Roll,Chinese,2026-10-29 19:35:26,1,209,0,upi,Delivered,23
+FD-10086, Ishita Iyer ,Pune,Burger Barn,Fast Food,2026-10-30 12:44:31,5,1010,150,upi,Delivred,56
+FD-10087,Rahul Bose,Hyderabad,Dosa Darbar,South Indian,"Oct 30, 2026 08:01 PM",3,432,65,UPI,Delivered,46
+FD-10088,Riya Chopra,Mumbai,Dosa Darbar,South Indian,30/10/2026 20:28,1,119,,Credit Card,Delivered,40
+FD-10089,Karthik Iyer,,Paratha Point,North Indian,31/10/2026 11:56,2,278,42,UPI,Delivered,51
+FD-10090,Neha Rao,Mumbai,Biryani Bazaar,Biryani,2026-10-32 20:15:00,4,1176,,,Delivered,26
+FD-10088,Riya Chopra,Mumbai,Dosa Darbar,South Indian,30/10/2026 20:28,1,119,,Credit Card,Delivered,40
+FD-10091,Manish Rao,Chennai,Dosa Darbar,South Indian,2026-10-31 13:48:40,2,213,32,Credit Card,Delivered,53
+FD-10092,Nikhil Rao,Mumbai,Tandoori Tales,North Indian,"Oct 31, 2026 02:39 PM",1,354,0,Debit Card,Delivered,53
+FD-10091,Manish Rao,Chennai,Dosa Darbar,South Indian,2026-10-31 13:48:40,2,213,32,Credit Card,Delivered,53
